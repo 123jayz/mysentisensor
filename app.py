@@ -4,8 +4,7 @@ import pandas as pd
 import json
 import plotly
 import csv, re, operator
-import plotly.graph_objs as go
-import numpy as np
+# import plotly.graph_objs as go
 import plotly_express as px
 
 app = Flask(__name__)

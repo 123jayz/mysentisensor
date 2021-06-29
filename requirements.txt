@@ -1,6 +1,5 @@
 pandas
-Flask
 plotly_express
 plotly
-numpy
+Flask
 gunicron
