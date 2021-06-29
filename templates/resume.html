@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link href='/static/css/demo.css' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="container">
+  <div class="word_split wrapper">
+  <span class="word word1"> Qichuan </span>
+  <span class="word word2">Zhou</span>
+  <span class="word word3">Personal</span>
+  <span class="word word4">Details</span>
+  <span class="word word5">Employment</span>
+  <span class="word word6">History </span>
+  <span class="word word7">Education</span>
+  <span class="word word8">Personal</span>
+  <span class="word word9">Skills </span>
+  <span class="word word10">Technical</span>
+  <span class="word word11">Skills </span>
+  <span class="word word12">Get In </span>
+  <span class="word word13">Touch</span>
+    
+    <div class="bubble1">
+     <span class="the-arrow1"></span>
+      你好! <br/> 我是..
+   </div>
+  <div class="bubble2">
+     <span class="the-arrow2"></span>
+    <img src="\static\img\1.jpg"/>
+   </div>
+  <div class="bubble3">
+     <span class="the-arrow3"></span>
+    {{person.detail1}}<br/>
+    {{person.detail2}}<br/>
+    {{person.detail3}}<br/>
+    {{person.detail4}}<br/>
+    {{person.detail5}}<br/>
+   </div>
+  <div class="bubble4">
+     <span class="the-arrow4"></span>
+    {{person.history1}}<br/>
+    {{person.history2}}<br/><br/>
+    {{person.history3}}
+    <br/>
+    
+   </div>
+  <div class="bubble5">
+     <span class="the-arrow5"></span>
+    {{person.education1}}<br/>
+    {{person.education2}}<br/>
+    {{person.education3}}<br/><br/>
+    {{person.education4}}<br/>
+    {{person.education5}}<br/>
+    {{person.education6}}
+    
+   </div>
+  <div class="bubble6">
+     <span class="the-arrow6"></span>
+    {{person.skill1}}<br/>
+    {{person.skill2}}<br/>
+    {{person.skill3}}<br/>
+    {{person.skill4}}<br/>
+    {{person.skill5}}<br/>
+   </div>
+  <div class="bubble7">
+     <span class="the-arrow7"></span>
+    {{person.technic1}}<br/>
+    {{person.technic2}}<br/>
+    {{person.technic3}}<br/>
+   </div>
+  <div class="bubble8">
+     <span class="the-arrow8"></span>
+    {{person.contact1}}<br/>
+    {{person.contact2}}<br/>
+    {{person.contact3}}<br/>
+   </div>   
+   <p><a href="{{url_for('chart')}}" target="_blank">近期作品1</a></p>
+</div>
+</div><!--end container-->
+</body>
+</html>>
